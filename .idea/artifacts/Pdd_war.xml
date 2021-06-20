@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Pdd:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/Pdd_war</output-path>
+    <root id="archive" name="Pdd_war.war">
+      <element id="artifact" artifact-name="Pdd:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/Pdd/src" />
+      <element id="dir-copy" path="$PROJECT_DIR$/Pdd/web" />
+    </root>
+  </artifact>
+</component>

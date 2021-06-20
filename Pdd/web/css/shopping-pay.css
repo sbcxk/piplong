@@ -1,0 +1,171 @@
+.title h2{
+	font-size: 18px;
+	line-height: 1;
+	margin-bottom: 10px;
+	font-family: "Microsoft Yahei","微软雅黑",verdana;
+    color: #333;
+    font-weight: bolder;
+}
+.title{
+	margin-top: 50px;
+}
+.container{
+	margin-top: 50px;
+}
+.title-infor .number{
+	color: #999;
+	font-size: 16px;
+	line-height: 18px;
+	margin-right: 600px;
+}
+.infor-price{
+	font-size: 18px;
+	line-height: 18px;
+	font-family: "Microsoft Yahei","微软雅黑",verdana;
+    color: #333;
+}
+.title-infor .money{
+    color: #d4282d;
+    line-height: 18px;
+    font-size: 18px;
+}
+.f-margin-bottom{
+    margin-bottom: 40px;
+}
+.f-margin-bottom{
+	margin-top: 30px;
+}
+.f-margin-bottom{
+	background-color: #fff;
+    border: 1px solid #efefef;
+}
+.hd{
+	height: 42px;
+    padding-left: 21px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #efefef;
+    line-height: 41px;
+    color: #999;
+    font-size: 14px;
+}
+.m-payMethods{
+	padding: 10px 0 19px 36px;
+	font-family: "Microsoft Yahei","微软雅黑",verdana;
+    color: #333;
+    font-size: 12px;
+    line-height: 40px;
+}
+.j-payMethod .w-radio{
+	margin-right: 10px;
+}
+.j-payMethod .w-radio input{
+	vertical-align: middle;
+}
+.j-payMethod .photo img{
+	vertical-align: middle;
+	cursor: pointer;
+}
+.j-payMethod{
+	width: 190px;
+    height: 90px;
+    line-height: 80px;
+}
+.q-payMethod .w-radio{
+	margin-right: 10px;
+}
+.q-payMethod{
+	margin-left: 10px;
+	width: 190px;
+    height: 90px;
+    line-height: 80px;
+}
+.q-payMethod .w-radio input{
+	vertical-align: middle;
+}
+.q-payMethod .photo img{
+	vertical-align: middle;
+	cursor: pointer;
+}
+.m-bink li{
+	float: left;
+	position: relative;
+}
+.m-bink{
+	display: none;
+	position: relative;
+	width: 988px;
+    height: 118px;
+    padding-top: 41px;
+    margin-top: 6px;
+    margin-bottom: 32px;
+    background-color: #f5f5f5;
+    padding-left: 25px;
+    margin-left: 41px;
+}
+.china-bank{
+	margin-left: 10px;
+	cursor: pointer;
+    padding: 2px;
+    display: inline-block;
+    overflow: hidden;
+}
+.china-bank:hover{
+	border: 2px solid #b4a078;
+	padding: 0;
+    overflow: hidden;
+}
+.df{
+	border: 10px solid #f5f5f5;
+    border-top-color: #fff;
+    border-left-color: #fff;
+    border-right-color: #fff;
+    position: absolute;
+    top: -20px;
+    left: 680px;
+    width: 0;
+    height: 0;
+    display: none;
+}
+.df-1{
+	border: 10px solid #f5f5f5;
+    border-top-color: #fff;
+    border-left-color: #fff;
+    border-right-color: #fff;
+    position: absolute;
+    top: -20px;
+    left: 863px;
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.xixi{
+	width: 168px;
+    height: 49px;
+    line-height: 47px;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid #b4a078;
+    background-color: #b4a078;
+    cursor: pointer;
+}
+.sdx{
+	display: none;
+	position: absolute;
+	bottom: -3px;
+	right: 0;
+}
+.foo-time{
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+.foo-time .time{
+    font-size: 14px;
+	color: #333;
+	margin-right: 12px;
+}
+.time-item{
+	color: #d4282d;
+	font-size: 14px;
+	
+}
