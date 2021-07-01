@@ -111,7 +111,7 @@ public class UserDaoImpl implements UserDao {
             }
         }
         //添加分页
-        sb.append(" limit ? , ? ");
+        sb.append("limit ? , ? ");
         //添加分页查询参数
         params.add(start);
         params.add(rows);

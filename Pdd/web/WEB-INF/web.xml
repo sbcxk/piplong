@@ -21,11 +21,23 @@
         <location>/404.jsp</location>
     </error-page>
     <!--ServletContext监听器-->
+    <!--<listener>
+        <listener-class>web.filter.MyListener</listener-class>
+    </listener>-->
     <listener>
         <listener-class>web.filter.MyServletContextListener</listener-class>
     </listener>
     <listener>
         <listener-class>web.filter.SessionCounter</listener-class>
     </listener>
-
+    <!-- LISTENER FOR THREAD -->
+    <!--<servlet>
+        <servlet-name>MyListener</servlet-name>
+        <servlet-class>web.cameraServlet.CameraServlet</servlet-class>
+        <load-on-startup>9</load-on-startup>&lt;!&ndash; 数字越小，启动的优先级越高，必须大于0 &ndash;&gt;
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyListener</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>-->
 </web-app>

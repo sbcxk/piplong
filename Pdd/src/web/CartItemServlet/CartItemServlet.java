@@ -19,37 +19,6 @@ import java.util.Map;
 
 @WebServlet("/CartItemServlet")
 public class CartItemServlet extends BaseServlet {
-    /*protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        User user=(User)req.getSession().getAttribute("user");
-        if(user==null){
-            System.out.println("没有登陆");
-            req.setAttribute("wdl","请先登录");
-            req.getRequestDispatcher("/login.jsp").forward(req,resp);
-            return;
-        }
-        int uid = user.getId();
-        //获取购物车条目
-        CartItemService cartItemService=new CartItemServiceImpl();
-        List<CartItem> cartItemList = null;
-        try {
-            cartItemList = cartItemService.myCart(uid);
-        } catch (SQLException throwables) {
-            throwables.printStackTrace();
-        }
-        HttpSession session = req.getSession();
-        session.setAttribute("cartItemList",cartItemList);
-        //request.getRequestDispatcher("/admin/product/list.jsp").forward(request,response);
-        resp.sendRedirect(req.getContextPath()+"/cart.jsp");
-        //存入session 转发到list
-        //req.setAttribute("cartItemList",cartItemList);
-        //req.getRequestDispatcher("/cart.jsp").forward(req,resp);
-        //resp.sendRedirect(req.getContextPath()+"/cart.jsp");
-    }
-
-
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        this.doPost(request, response);
-    }*/
 
     private CartItemService cartItemService = new CartItemServiceImpl();
 

@@ -60,6 +60,7 @@
     //将两个list存入request
     request.setAttribute("hList",hotList);
     request.setAttribute("nList",newList);
+
 %>
 <!--快捷导航栏模块-->
 <div id="shopping_top"></div>

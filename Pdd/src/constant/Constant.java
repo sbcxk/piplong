@@ -44,4 +44,6 @@ public interface Constant {
 	int order_yifahuo=2;
 	int order_wancheng=3;
 
+
+	String path="";
 }

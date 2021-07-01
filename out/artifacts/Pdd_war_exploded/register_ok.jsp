@@ -168,7 +168,7 @@
     <div id="header"></div>
         <!-- 头部 end -->
     	<div style="text-align:center;red:yellow;font-weight:bold;height:150px;padding-top:100px;padding-bottom:200px;font-size:30px;">
-    		<h4>恭喜，注册成功！请激活账户</h4>
+    		<h4>恭喜，注册成功！</h4>
     	</div>
         <!--引入尾部-->
     	<div id="footer"></div>

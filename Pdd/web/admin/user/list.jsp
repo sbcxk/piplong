@@ -221,7 +221,7 @@
                         <c:if test="${pb.currentPage!=1}">
                     <li>
                         </c:if>
-                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage-1}&rows=5&name=${condition.name[0]}&address=${condition.address[0]}&email=${condition.email[0]}"
+                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage-1}&rows=5&username=${condition.username[0]}&email=${condition.email[0]}&status=${condition.status[0]}"
                            aria-label="Previous">
                             <span aria-hidden="true">&laquo;</span>
                         </a>
@@ -229,12 +229,12 @@
                     <c:forEach begin="1" end="${pb.totalPage}" var="i">
 
                         <c:if test="${pb.currentPage==i}">
-                            <li class="active"><a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5&name=${condition.name[0]}&address=${condition.address[0]}&email=${condition.email[0]}">${i}</a>
+                            <li class="active"><a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5&username=${condition.username[0]}&email=${condition.email[0]}&status=${condition.status[0]}">${i}</a>
                             </li>
                         </c:if>
                         <c:if test="${pb.currentPage!=i}">
                             <li>
-                                <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5&name=${condition.name[0]}&address=${condition.address[0]}&email=${condition.email[0]}">${i}</a>
+                                <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=5&username=${condition.username[0]}&email=${condition.email[0]}&status=${condition.status[0]}">${i}</a>
                             </li>
                         </c:if>
 
@@ -246,7 +246,7 @@
                         <c:if test="${pb.currentPage<pb.totalPage-1 }">
                     <li>
                         </c:if>
-                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage+1}&rows=5&name=${condition.name[0]}&address=${condition.address[0]}&email=${condition.email[0]}"
+                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage+1}&rows=5&username=${condition.username[0]}&email=${condition.email[0]}&status=${condition.status[0]}"
                            aria-label="Next">
                             <span aria-hidden="true">&raquo;</span>
                         </a>

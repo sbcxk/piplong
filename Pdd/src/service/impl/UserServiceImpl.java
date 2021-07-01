@@ -111,12 +111,13 @@ public class UserServiceImpl implements UserService {
         //设置位移激活码
         registUser.setCode(UuidUtil.getUuid());
         //设置激活状态
-        registUser.setStatus("N");
+        registUser.setStatus("Y");
         //保存用户信息
         dao.save(registUser);
         //发送激活码
-       String content="<a href='"+"http://localhost:8080"+"/activeUserServlet?code="+registUser.getCode()+"'>→_→点击激活【优购商城】</a>";
-       MailUtils.sendMail(registUser.getEmail(),content,"拼夕夕注册限量激活码！");
+       //String content="<a href='"+"http://localhost:8080"+"/activeUserServlet?code="+registUser.getCode()+"'>→_→点击激活【优购商城】</a>";
+        //String content="<a href='"+"http://119.23.254.93:8080"+"/activeUserServlet?code="+registUser.getCode()+"'>→_→点击激活【优购商城】</a>";
+       //MailUtils.sendMail(registUser.getEmail(),content,"拼夕夕注册限量激活码！");
         return true;
     }
 

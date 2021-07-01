@@ -61,7 +61,7 @@ header{
     margin-top: -2px;
 }
 .success {
-    color: green;
+    color: #BBE5EF;
 }
 .success_icon {
     background: url(../images/success.png) no-repeat;
@@ -77,7 +77,7 @@ header{
     background-color: #de1111;
 }
 .zhong {
-    background-color: #40b83f;
+    background-color: #BBE5EF;
 }
 
 .qiang {
@@ -207,4 +207,7 @@ header{
 }
 .regist{
     padding-left: 150px;
+}
+.th_bg{
+    background-color: #BBE5EF;
 }

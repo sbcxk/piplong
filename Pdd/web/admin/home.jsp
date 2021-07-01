@@ -51,14 +51,6 @@
 </head>
 <body>
 
-<header id="header">
-    <hgroup>
-        <h1 class="site_title" style="text-align: center"><a href="home.jsp" >管理项</a></h1>
-        <h2 class="section_title">仪表盘</h2>
-        <div class="btn_view_site"><a href="../index.jsp">查看官网</a></div>
-    </hgroup>
-</header> <!-- end of header bar -->
-
 <!--<section id="secondary_bar">
     <div class="user">
         <p>John Doe (<a href="#">3 Messages</a>)</p>
@@ -69,7 +61,7 @@
     </div>
 </section>&lt;!&ndash; end of secondary bar &ndash;&gt;-->
 
-<aside id="sidebar" class="column">
+<%--<aside id="sidebar" class="column">
     <form class="quick_search">
         <input type="text" value="Quick Search" onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
     </form>
@@ -104,8 +96,8 @@
         <hr />
         <p><strong>拼优购电子商务平台后台管理</strong></p>
     </footer>
-</aside><!-- end of sidebar -->
-
+</aside>--%><!-- end of sidebar -->
+<%@include file="./left.jsp"%>
 <section id="main" class="column">
 
     <h4 class="alert_info">欢迎使用拼优购管理员功能。</h4>

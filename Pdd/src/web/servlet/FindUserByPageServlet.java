@@ -46,16 +46,17 @@ public class FindUserByPageServlet extends HttpServlet {
         PageBean<User> pb = service.findUserByPage(currentPage, rows, condition);
 
         //将PageBean存入request
-        request.setAttribute("pb", pb);
+        //request.setAttribute("pb", pb);
         //将查询条件存入request
-        request.setAttribute("condition",condition);
+        //request.setAttribute("condition",condition);
         //转发到list.jsp
         //request.getRequestDispatcher("/admin/user/list.jsp").forward(request, response);
         //response.sendRedirect(request.getContextPath()+"/admin/user/list.jsp");
         HttpSession session = request.getSession();
         session.setAttribute("pb",pb);
         session.setAttribute("condition",condition);
-        response.sendRedirect(request.getContextPath()+"/admin/user/list.jsp");
+        //response.sendRedirect(request.getContextPath()+"/admin/user/list.jsp");
+        request.getServletContext().getRequestDispatcher("/admin/user/list.jsp").forward(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

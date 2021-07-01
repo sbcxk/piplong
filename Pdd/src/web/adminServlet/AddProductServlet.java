@@ -74,6 +74,7 @@ public class AddProductServlet extends HttpServlet {
                     //f.创建输出流
                     //获取products目录的真实路径
                     String productPath = getServletContext().getRealPath("/goods");
+                    System.out.println(productPath);
                     //System.out.println(productPath);
                     //创建随机目录
                     File dirFile = new File(productPath,dir);
